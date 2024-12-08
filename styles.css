@@ -2,10 +2,11 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f9f9f9;
 }
 
-header, footer {
-    background-color: #333;
+header {
+    background-color: #003366;
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -23,6 +24,7 @@ section {
     padding: 1em;
     border: 1px solid #ddd;
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 article h3 {
@@ -31,7 +33,7 @@ article h3 {
 
 .resaltado {
     font-weight: bold;
-    color: #007BFF; 
+    color: #007BFF;
 }
 
 nav {
@@ -60,4 +62,11 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #007BFF;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
